@@ -14,6 +14,11 @@
  */
 let arr = ["foo","bar","baz","qux","echo","octo","cat","foobar","quux"];
 let result = [];
+for (let i = 1; i < arr.length; i += 2) {
+   result.push(arr[i]);
+ }
+ 
+ console.log(result);
 
 
 //export result
